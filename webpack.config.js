@@ -8,11 +8,11 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {loader: "babel-loader"}
+        use: { loader: "babel-loader" }
       },
       {
         test: /\.html$/,
-        use: [{loader: "html-loader"}]
+        use: [{ loader: "html-loader" }]
       },
       {
         test: /\.css$/,
@@ -25,11 +25,11 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [".js",".jsx"],
+    extensions: [".js", ".jsx"],
   },
-  plugin: [
+  plugins: [
     new HtmlWebPackPlugin({
-      template: './public/index.html'
-    })
-  ]
-}
+      template: "./public/index.html"
+    }),
+  ],
+};
