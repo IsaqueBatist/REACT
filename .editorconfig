@@ -1,0 +1,4 @@
+root=true #arquivo é a raiz do projeto
+end_of_line = lf #config final da linha
+insert_final_newline = true #finaliza o arquivo com uma nova linha em branco
+indent_size = 4 #tamanho do tab
